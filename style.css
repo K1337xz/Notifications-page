@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-size: 16px;
+	width: 100%;
+	background-color: hsl(210, 60%, 98%);
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.notificationsMain {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+
+	background-color: hsl(0, 0%, 100%);
+}
+.notificationsHolder span {
+	font-size: 10px;
+	color: hsl(219, 14%, 63%);
+}
+.markButton {
+	font-size: 16px;
+}
+.left {
+	display: flex;
+	align-items: center;
+}
+.topCon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 1rem 6rem;
+}
+.topCon h1 {
+	font-size: 20px;
+}
+.numbersNoti {
+	font-size: 16px;
+	text-align: center;
+	margin-left: 2rem;
+	width: 3vh;
+	background-color: hsl(219, 85%, 26%);
+	color: hsl(0, 0%, 100%);
+	border-radius: 5px;
+}
+.notification img {
+	width: 4%;
+	margin-left: 2rem;
+}
+.notification {
+	display: flex;
+	align-items: center;
+	margin-left: 5rem;
+	margin-bottom: 1rem;
+	height: 8vh;
+}
+.notification.unread {
+	background-color: hsl(210, 60%, 98%);
+	width: 90%;
+	height: 8vh;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+}
+
+.notification.unread span.dot {
+	display: inline-block;
+	width: 1vh;
+	height: 1vh;
+	background-color: hsl(1, 90%, 64%);
+	margin-left: 1rem;
+	border-radius: 50%;
+}
+.notification a {
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 800;
+	color: hsl(224, 21%, 14%);
+}
+.notification a:hover {
+	color: hsl(219, 85%, 26%);
+	font-weight: 800;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+}
+.content p {
+	font-size: 14px;
+	font-weight: 500;
+	color: hsl(219, 14%, 63%);
+}
